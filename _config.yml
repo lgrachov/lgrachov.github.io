@@ -1,3 +1,5 @@
 theme: jekyll-theme-architect
 title: Lev's homepage
 description: Hi there! This is my homepage, here you will find me posting various different things, like posts, pictures, or stories.
+plugins:
+  - jekyll-seo-tag
