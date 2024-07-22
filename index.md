@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Hi there! I'm Lev Grachov!
 
 - 👀 I’m currently exploring **houses**
