@@ -1,0 +1,1 @@
+This is the folder that contains the images, videos, and audio for the site.
