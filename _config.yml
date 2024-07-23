@@ -4,3 +4,4 @@ description: Hi there! This is my homepage, here you will find me posting variou
 plugins:
   - jekyll-seo-tag
 timezone: Europe/London
+encoding: utf-8
