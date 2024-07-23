@@ -5,3 +5,10 @@ plugins:
   - jekyll-seo-tag
 timezone: Europe/London
 encoding: utf-8
+# Default front matter data so if no front matter data is set it will use the default layoout
+defaults:
+ -
+  scope:
+   path: ""
+  values:
+   layout: "default"
