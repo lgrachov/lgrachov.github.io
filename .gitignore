@@ -1,0 +1,5 @@
+# Ignore the Gemfile.lock file because GitHub Pages ignores it already
+Gemfile.lock
+# Ignore hidden system files
+.DS_Store
+Thumbs.db
