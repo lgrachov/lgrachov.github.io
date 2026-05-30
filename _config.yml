@@ -4,6 +4,9 @@ description: Use mouse/touchscreen and click/tap
 url: "https://lgrachov.github.io"
 baseurl: "" # leave empty for a user/org page (lgrachov.github.io)
 
+# Google Analytics (gtag.js) — loaded only in production builds
+google_analytics: G-D26DB1XV03
+
 # Social cards (Facebook / Telegram via Open Graph, Twitter/X via Twitter Cards)
 author: lgrachov
 # twitter:
