@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How I put Linux in an HTML file`"
-date: 2026-05-30
+title: "How I put Linux in an HTML file"
+date: 2026-05-30 20:30:00
 ---
 
 Recently, I built something that sounds impossible at first: Linux running from a single HTML file.
