@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        {{ post.title }}
+      </a>
+    </li>
+  {% else %}
+    <li><span class="empty">No posts yet.</span></li>
+  {% endfor %}
+</ul>

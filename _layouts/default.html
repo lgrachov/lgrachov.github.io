@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+</head>
+<body>
+  <header>
+    <br />
+    <b><a href="{{ '/' | relative_url }}">{{ site.title }}</a></b><br />
+    {{ site.description }}
+  </header>
+  <hr />
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>

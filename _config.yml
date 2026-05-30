@@ -1,0 +1,34 @@
+title: Android Recovery
+description: Use mouse/touchscreen and click/tap
+# Required for absolute URLs in social-card tags. Update if your repo name differs.
+url: "https://lgrachov.github.io"
+baseurl: "" # leave empty for a user/org page (lgrachov.github.io)
+
+# Social cards (Facebook / Telegram via Open Graph, Twitter/X via Twitter Cards)
+author: lgrachov
+# twitter:
+#   username: your_handle
+#   card: summary_large_image
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+plugins:
+  - jekyll-seo-tag
+
+# To show a PREVIEW IMAGE in every card, drop a ~1200x630 PNG at
+# assets/images/social-card.png and uncomment the block below. Until then,
+# cards are text-only (title + description), which still works everywhere.
+# A single page can override this with `image: /path.png` in its front matter.
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       image: /assets/images/social-card.png
+
+# Exclude from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md

@@ -1,0 +1,138 @@
+html {
+  /* Avoids a flash of white before the body background paints */
+  background-color: black;
+}
+
+body {
+  background-color: black;
+  color: #c9c9c9;
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", "Fira Code",
+    Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0 1rem 3rem;
+  max-width: 48rem;
+}
+
+header {
+  color: yellow;
+}
+
+header a {
+  color: yellow;
+  text-decoration: none;
+}
+
+header a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+hr, a {
+  color: #3977c4;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li a {
+  display: block;
+  width: 100%;
+  padding: 0.15rem 0;
+}
+
+a:hover {
+  background-color: #3977c4;
+  color: white;
+}
+
+.post-date {
+  color: #6a6a6a;
+  margin-right: 0.75rem;
+}
+
+li a:hover .post-date {
+  color: white;
+}
+
+.empty {
+  color: #6a6a6a;
+}
+
+/* --- Post pages --- */
+.post-title {
+  color: yellow;
+  font-size: 1.3rem;
+  margin: 1rem 0 0.25rem;
+}
+
+.post-meta {
+  color: #6a6a6a;
+  margin: 0 0 1.5rem;
+}
+
+.post-content {
+  color: #c9c9c9;
+}
+
+/* Inline links inside post bodies should not stretch full width */
+.post-content a {
+  display: inline;
+  width: auto;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  color: #e0e0e0;
+}
+
+.post-content pre,
+.post-content code {
+  font-family: inherit;
+  background-color: #161616;
+  color: #d6d6d6;
+}
+
+.post-content code {
+  padding: 0.05rem 0.3rem;
+}
+
+.post-content pre {
+  padding: 0.75rem;
+  overflow-x: auto;
+  border: 1px solid #2a2a2a;
+}
+
+.post-content pre code {
+  padding: 0;
+  background: none;
+}
+
+.post-content blockquote {
+  border-left: 3px solid #3977c4;
+  margin-left: 0;
+  padding-left: 1rem;
+  color: #9a9a9a;
+}
+
+.post-content img {
+  max-width: 100%;
+}
+
+.back {
+  margin-top: 2rem;
+}
+
+.back a {
+  display: inline;
+  width: auto;
+}
