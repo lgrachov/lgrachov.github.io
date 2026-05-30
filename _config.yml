@@ -16,6 +16,8 @@ author: lgrachov
 # Build settings
 markdown: kramdown
 permalink: /:title/
+future: true # publish posts even if their date is "in the future" (avoids UTC build-time hiding)
+timezone: Europe/London # interpret post dates in your local zone
 plugins:
   - jekyll-seo-tag
 
